@@ -5,15 +5,6 @@ This repository contains all my daily Python practice, exercises, and projects a
 
 ---
 
-## 📅 Progress Tracker
-| Day  | Topic / Project | Link |
-|------|----------------|------|
-| Day 1 | Printing and String Manipulation | [Day 1](./Day%201) |
-| Day 2 | Variables and Data Types | [Day 2](./Day%202) |
-| ...  | ... | ... |
-
----
-
 ## 📚 About the Bootcamp
 I am following the **"100 Days of Code: The Complete Python Pro Bootcamp"** by Dr. Angela Yu.  
 The course covers:
