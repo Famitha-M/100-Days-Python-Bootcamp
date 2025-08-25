@@ -5,8 +5,6 @@
 - Comparison Operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
 - Nested If statements
 - Logical Operators (`and`, `or`, `not`)
-- Odd or Even Program
-- BMI Calculator
-- Leap Year Checker
 - Pizza Order Program
-- Love Calculator
+- Treasure Island
+
