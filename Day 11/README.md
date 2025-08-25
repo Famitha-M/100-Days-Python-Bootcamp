@@ -57,4 +57,40 @@ Create a function `compare(user_score, computer_score)` with rules:
 - Try out the game online: [Washington Post Blackjack](https://games.washingtonpost.com/games/blackjack/)  
 - Completed project demo: [Blackjack Demo](https://appbrewery.github.io/python-day11-demo/)  
 - Requirement breakdown: [Listmoz Breakdown](http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF)  
-- Flowchart (App Brewery): [Download Flowchart](https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt)  
+- Flowchart (App Brewery): [Download Flowchart](https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt)
+
+
+
+## Hints  
+
+1. Try out Blackjack online:  
+   - [Washington Post Blackjack](https://games.washingtonpost.com/games/blackjack/)  
+   - [Completed Project Demo](https://appbrewery.github.io/python-day11-demo/)  
+
+2. Read this breakdown of program requirements:  
+   👉 http://listmoz.com/view/6h34DJpvJBFVRlZfJvxF  
+   Then, create your own flowchart.  
+
+3. Download and read this flowchart for guidance:  
+   👉 [Flowchart PDF](https://drive.google.com/uc?export=download&id=1rDkiHCrhaf9eX7u7yjM1qwSuyEk-rPnt)  
+
+4. Create a `deal_card()` function that randomly returns a card from the list.  
+
+5. Deal 2 cards each to the user and the computer using `deal_card()` and `.append()`.  
+
+6. Create a `calculate_score()` function that takes a list of cards and returns their sum.  
+
+7. Inside `calculate_score()`, check for a **Blackjack** (Ace + 10 with 2 cards). Return `0` instead of the score to represent Blackjack.  
+
+8. Still inside `calculate_score()`:  
+   - Check for `11` (Ace).  
+   - If score > 21, replace `11` with `1`.  
+
+9. Call `calculate_score()`.  
+   - If the computer or user has Blackjack (`0`) OR the user’s score > 21 → game ends.  
+
+10. If the game hasn’t ended, ask the user:  
+    👉 “Do you want another card?”  
+    - If **Yes** → add another card to `user_cards`.  
+    - If **No** → game ends.  
+
